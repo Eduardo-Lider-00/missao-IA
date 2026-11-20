@@ -4,7 +4,6 @@
     --cor-secundaria: #212333; 
     --cor-destaque: #2BDEFD;
     --cor-texto: #D7F9FF;
-
 }
 
 body {
@@ -42,11 +41,12 @@ button:hover{
     color: var(--cor-principal);
 }
 
-.caixa-resultado.mostrar {
+.caixa-resultado {
+    display: none;
 }
 
 .caixa-resultado.mostrar {
-     display: block;
+    display: block;
 }
 
 .caixa-alternativas {

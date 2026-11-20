@@ -1,4 +1,4 @@
-import {respostas, nome} from './respostas.js';
+import {aleatorio, nome} from './respostas.js';
 import {perguntas} from './perguntas.js';
 
 const caixaPrincipal = document.querySelector(".caixa-principal");
